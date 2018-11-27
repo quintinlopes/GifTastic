@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic || Q</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+    <div class="topStuff">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+                    <div id="btns-city">
+                        <!-- This is going to be where all of the buttons go -->
+                        <button id="city-buttons" type="button" class="btn btn-dark"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8" id="gif-dump">
+                    <!-- This is where all of the Gifs are going to get dumped -->
+                </div>
+                <div class="col-md-4" id="search-input">
+                    <h4>
+                        Add a name of a city!
+                    </h4>
+                    <div class="search-city">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend"></div>
+                            <input id="city-input" type="text" class="form-control" placeholder="i.e. Tokyo" aria-label="Username" 
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <button type="button" value="submit" class="btn btn-dark" id="add-city">Search / Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
